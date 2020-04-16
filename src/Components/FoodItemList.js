@@ -5,7 +5,10 @@ const FoodItemList=(props)=>
     return (
 
 
-        <table>
+
+
+
+        <table className="table table-bordered tbl-sides">
 
             <thead>
               <tr>
@@ -39,7 +42,7 @@ const FoodItemList=(props)=>
    ):(
    
    <tr>
-       <td colSpan={3}>We are sorry food is out of stock!</td>
+       <td colSpan={4}>We are sorry food is out of stock!</td>
    </tr>
 
    )

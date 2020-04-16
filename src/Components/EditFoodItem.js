@@ -3,7 +3,7 @@ import React from 'react';
 
 const  EditFoodItem=props=>{
 return (
-   <form>
+   <form className="mleft">
     <div className="form-group">
     <label>Food Name</label>
     <input type="text" className="form-control" name="food" value={props.food} onChange={props.handleInputChange}/>
@@ -31,3 +31,5 @@ return (
 
 
 }
+
+export default EditFoodItem;

@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import AddFoodItem from './Components/AddFoodItem';
+import EditFoodItem from './Components/EditFoodItem';
+import FoodItemList from './Components/FoodItemList';
+
 
 class App extends Component
 {
@@ -48,7 +52,7 @@ addFoodItem(event)
        status:this.state.status
 
   }
-Console.log(foodItem);
+console.log(foodItem);
 this.setState({
 food:'',
 cost:'',
